@@ -1,0 +1,6 @@
+streamlit
+spacy
+PyMuPDF
+fitz
+pandas
+cupy-cuda12x

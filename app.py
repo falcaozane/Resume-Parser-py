@@ -3,6 +3,7 @@ import fitz
 import spacy
 import pandas as pd
 import docx2txt
+import frontend
 
 # Load the SpaCy NER model
 nlp = spacy.load('./model')

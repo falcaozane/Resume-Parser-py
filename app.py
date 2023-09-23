@@ -1,6 +1,7 @@
 import streamlit as st
 import fitz
 import spacy
+import spacy_transformers
 import pandas as pd
 import docx2txt
 # import frontend

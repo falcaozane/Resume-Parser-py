@@ -4,7 +4,7 @@ import spacy
 import pandas as pd
 
 # Load the SpaCy NER model
-nlp = spacy.load('./models/model-best')
+nlp = spacy.load('./model')
 
 # Streamlit app title and description
 st.title("Resume Parser")

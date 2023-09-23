@@ -1,6 +1,6 @@
 streamlit
 spacy
 pymupdf
-fitz
+PyMuPDF
 pandas
 cupy-cuda12x

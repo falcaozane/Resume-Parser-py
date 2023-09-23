@@ -1,5 +1,6 @@
 streamlit
 spacy
+spacy-transformers
 pymupdf
 PyMuPDF
 docx2txt

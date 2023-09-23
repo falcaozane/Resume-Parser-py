@@ -7,7 +7,7 @@ import docx2txt
 # import frontend
 
 # Load the SpaCy NER model
-nlp = spacy.load('./model')
+nlp = spacy.load("./model")
 
 # Streamlit app title and description
 st.title("Resume Parser")

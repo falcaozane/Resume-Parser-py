@@ -6,3 +6,4 @@ PyMuPDF
 docx2txt
 pandas
 cupy-cuda12x
+gunicorn

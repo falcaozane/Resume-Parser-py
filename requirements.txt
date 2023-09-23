@@ -1,4 +1,3 @@
-python==3.11
 streamlit
 spacy
 pymupdf

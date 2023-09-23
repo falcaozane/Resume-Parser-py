@@ -2,25 +2,33 @@ import streamlit as st
 import fitz
 import spacy
 import pandas as pd
+import docx2txt
 
 # Load the SpaCy NER model
 nlp = spacy.load('./model')
 
 # Streamlit app title and description
 st.title("Resume Parser")
-st.write("Upload a PDF containing a resume for parsing.")
+st.write("Upload a PDF, DOCX  file containing a resume for parsing.")
 
 # File upload widget
-uploaded_file = st.file_uploader("Upload a PDF", type=["pdf"])
+uploaded_file = st.file_uploader("Upload a File", type=["pdf", "docx"])
 
 if uploaded_file is not None:
-    # Read the PDF file
-    pdf_data = uploaded_file.read()
-    
-    # Extract text from the PDF using PyMuPDF (fitz)
-    doc = fitz.open("uploaded.pdf", pdf_data)
-    text = " ".join([page.get_text() for page in doc])
-    
+    # Read the uploaded file
+    file_extension = uploaded_file.name.split('.')[-1]
+
+    if file_extension == 'pdf':
+        # Read the PDF file
+        pdf_data = uploaded_file.read()
+        doc = fitz.open("uploaded.pdf", pdf_data)
+        text = " ".join([page.get_text() for page in doc])
+
+    elif file_extension == 'docx':
+        # Read the DOCX file
+        text = docx2txt.process(uploaded_file)
+
+
     # Process the text with the SpaCy NER model
     parsed_doc = nlp(text)
     

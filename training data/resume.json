@@ -1,0 +1,514 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Andy Challis",
+        "label": "Principal Data Scientist",
+        "image": "https://warehouse-camo.ingress.cmh1.psfhosted.org/35b73eaa1ba83efc77487c138013ea19597061c7/68747470733a2f2f7365637572652e67726176617461722e636f6d2f6176617461722f35383131353438313965306336353462646562396235633433376233323661373f73697a653d323235",
+        "email": "andrewchallis@hotmail.co.uk",
+        "phone": "61482043277",
+        
+        "website": "andrewchallis.co.uk",
+        "summary": "Andy is a solution catalyst, he builds and mentors high-performance teams from the ground up. He has worked in several industries, from Public Sector accounts across multiple countries to Utilities and Financial Services. Andy specializes in leading and enabling teams to deliver quantifiable business value for clients using state-of-the-art machine learning and industry best practices.",
+        "location": {
+            "city": "Melbourne",
+            "countryCode": "AU"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "achallis",
+                "url": "https://www.linkedin.com/in/achallis/"
+            },
+            {
+                "network": "GitHub",
+                "username": "ghandic",
+                "url": "https://github.com/ghandic"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "Python",
+            "level": "Master",
+            "keywords": [
+                "PyTorch",
+                "TensorFlow",
+                "FastAPI",
+                "OpenCV",
+                "scikit-learn",
+                "Pandas",
+                "Flask",
+                "Dash",
+                "mkdocs"
+            ]
+        },
+        {
+            "name": "Full Stack",
+            "level": "Master",
+            "keywords": ["NodeJS", "React", "KonvaJS", "CSS", "SASS", "HTML5", "Hugo", "Traefik"]
+        },
+        {
+            "name": "DevOps",
+            "level": "Master",
+            "keywords": ["AWS", "GCP", "Docker🐳", "Kubernettes", "Git", "Github", "GitLab", "Bitbucket"]
+        },
+        {
+            "name": "Databases",
+            "level": "Master",
+            "keywords": ["PostgreSQL", "MySql", "Elastic", "Hive", "sqlite"]
+        }
+    ],
+    "work": [
+        {
+            "company": "Slalom Build",
+            "name": "Slalom Build",
+            "position": "Principal Engineer",
+            "location": "Melbourne, AU",
+            "url": "https://www.slalombuild.com",
+            "startDate": "2021-10-25",
+            "highlights": [
+                "Provided Machine Learning thought leadership and vision, both internally and to clients.",
+                "Recommended and implemented architecture to deploy machine learning pipelines and CI/CD processes at scale.",
+                "Staffed, lead, and mentored data scientists, machine learning practitioners and engineers.",
+                "Collaborated with Product Owners to apply Slalom’s agile processes and while being responsible for the initiation, delivery, and transition of projects"
+            ],
+            "summary": "Slalom is a modern consulting firm focused on strategy, technology, and business transformation. Slalom redefines what's possible and create what's next",
+            "pinned": true
+        },
+        {
+            "company": "Capgemini Invent",
+            "name": "Capgemini Invent",
+            "position": "Senior Manager",
+            "location": "Melbourne, AU",
+            "url": "https://www.capgemini.com/",
+            "startDate": "2021-01-01",
+            "endDate": "2021-10-22",
+            "highlights": [
+                "Solution Lead for a $5 million-dollar account, where we scaled up the project team from 7 to 35 members within 12 months",
+                "Built and presented winning proposals for data science projects and overall data strategy to both new and existing clients - exceeding my annual sales target within the first 3 months",
+                "Lead the Python community (over 200 people) for Capgemini in APAC and designed courses and structure to enable large scale training and certification - <a href='https://capgeminiinventide.github.io/PyCap/'>PyCap</a>",
+                "Architected SOTA (State of the Art) OCR, document classification, quality and extraction microservices which resulted in an estimated 100 FTE reduction ~ $10m YoY, greater clarity for the citizen and the project was awarded the ISG Paragon APAC award.",
+                "Worked across multiple projects simultaneously with different roles, such as; delivery lead, solution lead and technical advisor"
+            ],
+            "summary": "Capgemini Invent combines strategy, technology, data science and creative design to solve the most complex business and technology challenges.",
+            "pinned": true
+        },
+        {
+            "company": "Capgemini Invent",
+            "name": "Capgemini Invent",
+            "position": "Manager",
+            "location": "Melbourne, AU",
+            "url": "https://www.capgemini.com/",
+            "startDate": "2019-06-01",
+            "endDate": "2021-01-01",
+            "highlights": [
+                "Designed, built and deployed multiple open source deep learning systems into production with 99.9% availability",
+                "Spearheaded the <a href='https://github.com/CapgeminiInventIDE'>CapgeminiInventIDE</a> open source project on GitHub, which has boosted our external visibility in the space massively, allowing applicants to see the level we are preforming at and the ability to contribute alongside us",
+                "Designed and ran an 8-week beginner/intermediate Python course for the whole of Capgemini Australia. The course curriculum was built and designed by myself and incorporated any additional topics that participants wanted to cover.",
+                "Primary interviewer for building high preferment teams, graded over 40 take home assessments, and both face-to-face and remote technical interviews",
+                "Produced and maintained 5 IP rich deep learning microservices with a demo frontend written in React to showcase to potential clients, leading to ~ $1 million dollars in project leads"
+            ],
+            "summary": "",
+            "pinned": true
+        },
+        {
+            "company": "Capgemini - Insights & Data",
+            "name": "Capgemini - Insights & Data",
+            "position": "Senior Consultant",
+            "location": "Manchester, UK",
+            "url": "https://www.capgemini.com/",
+            "startDate": "2018-01-01",
+            "endDate": "2019-06-01",
+            "highlights": [
+                "Involved with every facet of Data Science. Scoping, architecting, and leading data science projects & implementations",
+                "Technical lead for product development teams of around 8 people",
+                "Responsible for the designing and development of advanced models, as well as high-value use cases",
+                "Worked with vague (and complicated) project requirements from clients, while understanding how to evaluate and discover the best approaches to modelling"
+            ],
+            "summary": "Capgemini I&D aims to Drive digital transformation through AI, Analytics & Platform."
+        },
+        {
+            "company": "Capgemini - Insights & Data",
+            "name": "Capgemini - Insights & Data",
+            "position": "Consultant",
+            "location": "Manchester, UK",
+            "url": "https://www.capgemini.com/",
+            "startDate": "2016-10-01",
+            "endDate": "2018-01-01",
+            "highlights": [
+                "Developed a number of fast-moving PoCs where I had to consolidate my skills in a business context",
+                "Put into practice the theoretical knowledge of statistics and data science I had gained from university.",
+                "Practiced and proven in delivering no-compromise work under extreme pressure.",
+                "Used a range of techniques including predictive analytics, machine learning (ML), traditional statistics and geo spatial analysis through Agile methodologies.",
+                "Developed algorithms for leak detection for leading UK water utility companies.",
+                "Collaboratively worked with internal and external consultants to deliver impactful insights to clients."
+            ],
+            "summary": "Capgemini I&D aims to Drive digital transformation through AI, Analytics & Platform."
+        }
+    ],
+    "projects": [
+        {
+            "name": "ERA Application",
+            "entity": "RMIT",
+            "description": "Designed and built a full stack (Spring + Postgres + React) application to allow field of research advisors to align to the ERA process, this was a fully featured application, which included; custom workflow management, triggering and recieving notifications for users and strict Role Based Access Controls. (RBAC)",
+            "startDate": "2021-11-21",
+            "location": "Melbourne, AU",
+            "keywords": [
+                "Software Engineering",
+                "Full Stack",
+                "Java",
+                "Spring Boot",
+                "React",
+                "Postgres",
+                "DMS",
+                "AWS",
+                "JIRA"
+            ],
+            "highlights": [
+                "Lead the technical delivery of the application, advising on software architecture, feature delivery and testing stratergy",
+                "Collaboratively worked on features/bugs in both the backend and the frontend of the application",
+                "Stretched laterally across into Software Engineering to support the delivery on an upcoming deadline"
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Data Backbone",
+            "entity": "Services Australia",
+            "description": "In this part time project (40% capacity role) we designed and built a full stack (FaRM) application to monitor and democratize the data replication jobs across SvA",
+            "startDate": "2021-07-21",
+            "location": "Adelaide, AU",
+            "keywords": [
+                "Data Engineering",
+                "Full Stack",
+                "FastAPI",
+                "React",
+                "MongoDB",
+                "Qlik Attunity",
+                "JIRA"
+            ],
+            "highlights": [
+                "Supported the team as a technical advisor and collaboratively sculpted the solution design document",
+                "Utilized previous open-source work and development accelerators to build application scaffolding to ensure that team members could hit the ground running and not be blocked for their build tasks"
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Control Testing Automation",
+            "entity": "ANZ",
+            "description": "In this part time project (25% capacity role) we designed and built integrations from ServiceNow to Qlik Sense for the purpose of automating processes and exposing where SLA's were not being adhered to across the bank",
+            "startDate": "2021-06-01",
+            "location": "Melbourne, AU",
+            "keywords": ["Data Engineering", "Project Management", "Proposal", "Agile", "JIRA"],
+            "highlights": [
+                "Worked with internal stakeholders, both technical and functional to ensure solution met all requirements for data movement throughout multiple environments",
+                "Advised the team on the technical direction to move around blockers in innovative ways making use of fake data and reducing coupling points",
+                "Proactively groomed and managed the backlog of work to ensure sprint planning sessions were short and sharp to reduce meeting effort required by team so they could concentrate on the problems at hand"
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Marketing Data Strategy",
+            "entity": "FoxTel",
+            "description": "In this project we proposed a horizon based roadmap and technical architecture to enable FoxTel to leverage data across its multiple brands and distribution channels",
+            "startDate": "2021-05-01",
+            "endDate": "2021-06-01",
+            "location": "Melbourne, AU",
+            "keywords": ["Data Strategy", "Marketing", "Advertising", "Architecture", "Proposal", "Roadmap"],
+            "highlights": [
+                "Researched and architected a platform capable of handling customer, advertising and streaming data across multiple channels (digital and linear)",
+                "Collaboratively crafted a high level technical implementation roadmap with top down approximations for both team size and skill estimation and overall costings both CapEx and OpEx",
+                "Presented and reviewed the strategy with senior stakeholders from FoxTel, incorporating feedback into both the roadmap and architecture"
+            ],
+            "pinned": true
+        },
+        {
+            "name": "LENS: Life Event Notification System - Birth of A Child",
+            "entity": "Services Australia",
+            "description": "In this short term, part time project I performed the role of technical lead where I was responsible for the delivery of the solution which was to build a pipeline that would distribute life events to government agencies such as the ATO, Centerlink and Medicare",
+            "startDate": "2021-03-01",
+            "endDate": "2021-05-01",
+            "location": "Adelaide, AU",
+            "keywords": ["AWS", "Python", "Docker", "Kubernetes", "TDD", "Zeebe", "Kafka", "Nifi", "JIRA"],
+            "highlights": [
+                "Developed and deployed an event driven solution to production with the source code developed externally to SvA, showcasing the new preferred delivery model by separating the need for data from the solution",
+                "Designed an open-source JSON schema data faker that enabled the delivery of this project to simulate the data that would be present in production. The open source project is available here - <a href='https://github.com/ghandic/jsf'>jsf</a>"
+            ],
+            "pinned": true
+        },
+
+        {
+            "name": "Cognitive Document Handling",
+            "entity": "Services Australia",
+            "description": "In this project I performed a highly technical role with an emphasis on leadership, which has been paramount to its technical excellence and rigor, I pushed new boundaries within Services Australia and set the bar high for quality output. We were challenged to meet strict SLA’s for which I architected the end to end solution with sign off from the client.",
+            "startDate": "2019-07-01",
+            "endDate": "2021-05-01",
+            "location": "Adelaide, AU",
+            "keywords": [
+                "AWS",
+                "Python",
+                "Docker",
+                "Kubernetes",
+                "TDD",
+                "OpenCV",
+                "PyTorch",
+                "ONNX",
+                "FastAPI",
+                "TensorFlow",
+                "Dash",
+                "React",
+                "BitBucket",
+                "JIRA"
+            ],
+            "highlights": [
+                "Solution Lead for a $5 million-dollar account",
+                "Provided technical direction for a fully remote team of 35 people, plus client stakeholders",
+                "Deployed a production deep learning system in centerlink with an error rate of < 0.1% serving hundreds of thousands of Australians per day",
+                "Managed the delivery of 6 products, 100% on time and beyond the client’s expectations, adapted to the client’s requests and changing stake holder landscape by rapidly iterating on feedback and improvements showing the flexibility and adaptability of our team",
+                "Organized weekly lunch and learns, pair programming sessions, and out of hours mentorship",
+                "Considered a role model project, both internally and on the client side during corona virus pandemic, demonstrating how the remote working model can scale"
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Data Hub",
+            "description": "The project was to build a enterprise wide data platform in the cloud (AWS) that would manage the data and it's distribution across the bank. Delivery speed was a key issue so Andy assembled a team to build an automation framework for ingesting over 250 data sources along with the representative meta data.",
+            "startDate": "2019-01-01",
+            "endDate": "2019-07-01",
+            "entity": "NAB",
+            "location": "Melbourne, AU",
+            "keywords": [
+                "AWS",
+                "Python",
+                "Kafka",
+                "Hive",
+                "Jenkins",
+                "Terraform",
+                "Docker",
+                "TDD",
+                "WatchDog",
+                "Flask",
+                "GitHub",
+                "JIRA"
+            ],
+            "highlights": [
+                "Architected and built a self service micro-service for registering data sources to a data platform specifically for files being sent via SFTP.",
+                "Built a horizontally scalable (EC2/Docker) Python daemon that monitored file-system events (EFS) and triggered custom data flows for each object, such as; moving to specified dynamic S3 paths (S3), triggering a custom transformation job (Jenkins), automated un-compressing, clearing from file system (EFS)",
+                "Advised team members on deployment strategies (Terraform), unit testing (PyTest), alerting/logging (SNS + Splunk), documentation standards and containerisation",
+                "Lead an automation squad consisting of 8 people within NAB to help deliver a centralised self service data platform.",
+                "Had a major impact on software practices within squads by; creating reusable distributed packages for other teams to take advantage of, building tactical tools to increase the work-flow and automation of manual data ingestion – effectively cutting ingestion time from 6 weeks down to 2 (allowing for business approvals and procedures).",
+                "Built user interfaces (Flask, Javascript, HTML, CSS) for other squads to use that speed up their validation efforts for data ingestion."
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Automated Form Processing",
+            "description": "Built and implemented a full scale solution for processing P11D (expense) forms using a custom tool leveraging Google Tesseract OCR and OpenCV.",
+            "startDate": "2018-06-22",
+            "endDate": "2018-08-10",
+            "entity": "HMRC",
+            "location": "Telford, UK",
+            "keywords": [
+                "AWS",
+                "Python",
+                "Docker",
+                "Javascript",
+                "Frontend",
+                "TDD",
+                "TensorFlow",
+                "OpenCV",
+                "GitLab",
+                "JIRA"
+            ],
+            "highlights": [
+                "Created a private light GUI client which would be used to verify and process the output of the models predictions by an agent.",
+                "At the end of the trial the result was over 25 times faster throughput of forms; which in turn saved HMRC staffing from peak numbers of 120 down to 10. The output of the validation also created training data to be used to create a more sophisticated model in the future."
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Facial Recognition & Analysis API",
+            "description": "Created a production ready containerized Facial Recognition and Analysis API using Python's OpenCV, DLib and Flask. This was used as part of an application process to access the quality of images. Specifically if they adhered to ICAO standards for machine readable images.",
+            "startDate": "2017-05-07",
+            "endDate": "2018-02-10",
+            "entity": "Home Office",
+            "location": "Croydon, UK",
+            "keywords": [
+                "Python",
+                "Docker",
+                "Swift",
+                "Javascript",
+                "Frontend",
+                "TDD",
+                "Jenkins",
+                "PostgreSQL",
+                "TensorFlow",
+                "OpenCV",
+                "BitBucket",
+                "JIRA"
+            ],
+            "highlights": [
+                "Created unit tests and a full web front-end as well as a mobile application developed in Swift.",
+                "Developed a custom suite of Python libraries to speed up development, such as connecting to our JIRA instance, logging/interacting with Rocketchat and connecting to our database & incorporating commonly used functions/data types.",
+                "Worked with the platform team to push Continuous Integration with GitLab using Jenkins and Docker containers.",
+                "Technical lead on a scenario to engineer full-scale automated pipelines from inception through to beta phase, presented to users in a front-end tool."
+            ],
+            "pinned": true
+        },
+        {
+            "name": "Automated Leakage Detection",
+            "description": "Designed interactive mapping visualisations using both open source technologies for PoC and full-scale integration's with IBM's IOC for PoV which links the users' decisions to the operations.",
+            "startDate": "2017-02-01",
+            "endDate": "2017-04-01",
+            "entity": "Thames Water",
+            "location": "London, UK",
+            "keywords": [
+                "IBM Bluemix",
+                "Python",
+                "R",
+                "Time Series",
+                "Geo Spatial",
+                "Docker",
+                "Folium",
+                "BitBucket",
+                "JIRA"
+            ],
+            "highlights": [
+                "Developed algorithms for detecting leaks in pipes using multiple data sources: pressure, flow, pipe attributes, environment and smart meters.",
+                "Mentoring junior staff and delivering `lunch and learn' talks on hot topics."
+            ],
+            "pinned": false
+        },
+        {
+            "name": "Design of Data Science Competition",
+            "description": "Designed a data science competition (logo recognition in videos) for <a href='https://www.datasciencechallenge.org/'>datasciencechallenge.org</a> which was sponsored by the client.",
+            "startDate": "2016-12-12",
+            "endDate": "2017-01-06",
+            "entity": "DSTL",
+            "location": "Manchester, UK",
+            "keywords": ["Python", "TensorFlow", "OpenCV", "Docker", "GitHub", "JIRA"],
+            "highlights": [
+                "Created tutorials for ways in which to achieve an out-of-the-box baseline result using TensorFlow.",
+                "Curated images and videos for the competition from both paid-for and CC0 sources."
+            ],
+            "pinned": false
+        },
+        {
+            "name": "Predicting Reservoir Demand",
+            "description": "Developed reservoir prediction algorithms for predicting how long water in underground reservoirs will last depending on demand. We overlaid a cost model for electricity and fines to find an optimal solution for the life cycle of reservoirs.",
+            "startDate": "2016-11-03",
+            "endDate": "2016-11-11",
+            "entity": "Thames Water",
+            "location": "London, UK",
+            "keywords": ["R", "BitBucket", "JIRA"],
+            "pinned": false
+        },
+        {
+            "name": "Data Science Platform",
+            "description": "Involved in architecting a data science platform that took advantage of JupyterHub, Docker Swarm, Hadoop, AWS and multiple kernels (Python, R, Julia, Scala etc).",
+            "startDate": "2016-10-02",
+            "endDate": "2016-11-02",
+            "entity": "Department of Work and Pensions",
+            "location": "London, UK",
+            "keywords": ["Docker", "GitHub", "Kubernetes", "JIRA"],
+            "pinned": false
+        }
+    ],
+    "education": [
+        {
+            "institution": "Lancaster University",
+            "area": "Medical Statistics",
+            "studyType": "Master of Science - ",
+            "startDate": "2015-09-01",
+            "endDate": "2016-04-01",
+            "gpa": "First class, magna cum laude"
+        },
+        {
+            "institution": "Lancaster University + Texas A&M",
+            "area": "Mathematics & Statistics",
+            "studyType": "Bachelors of Science - ",
+            "startDate": "2012-09-01",
+            "endDate": "2016-04-01",
+            "gpa": "First class, magna cum laude"
+        },
+        {
+            "institution": "Sale Grammar School",
+            "studyType": "A Levels",
+            "startDate": "2010-09-01",
+            "endDate": "2012-04-01",
+            "gpa": "A*AAB"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Imagination Paragon Award",
+            "date": "2020",
+            "awarder": "ISG",
+            "summary": "Solution lead for the project where we were recognized our innovative and impactful collaboration for 'Document Management Modernization through Intelligent Automation'"
+        },
+        {
+            "title": "Inventor of the Quarter",
+            "date": "2020",
+            "awarder": "Capgemini Invent",
+            "summary": "Gained recognition from senior leadership within Capgemini Invent for being 'a role model with impact'"
+        },
+        {
+            "title": "Academic Scholarship",
+            "date": "2012",
+            "awarder": "Lancaster University"
+        },
+        {
+            "title": "Honors Student",
+            "date": "2014",
+            "awarder": "Texas A&M University"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native Speaker"
+        },
+        {
+            "language": "German",
+            "fluency": "Intermediate"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Tech",
+            "keywords": ["LinkedIn Posts", "Website Blogs", "Opensource"]
+        },
+        {
+            "name": "Sports",
+            "keywords": ["Lacrosse", "Rugby"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jeremiah Mannings | Associate Director",
+            "reference": "Andy's leadership on the Services Australia project has been incredible, continually going above and beyond for the work we are delivering for the client, resulting in client feedback such as 'we never have a doubt that you guys can deliver' due to Andy's tech leadership. Andy also has shown incredible leadership focusing on building people and the team to make sure everyone succeeds, by building skillsets and fostering a culture & environment of innovation. With the inclusion of client teams and constant client involvement in technical aspects of the project, Andy has excelled on inclusively working with the client to upskill and bring them along the journey of this project."
+        },
+        {
+            "name": "Benjamin Moretti | Senior Manager",
+            "reference": "Throughout my 25+ year career, I can categorically state that he is one of the most impressive professionals I have had the pleasure to work with. Any project Andy is involved in will be a success and I look forward to working with him again"
+        },
+        {
+            "name": "Oliver Cochrane | Director",
+            "reference": "Andy is a very high calibre data scientist. Andy is hard working and committed on projects. He is quick to learn and is able to apply his learnings and technical skills into real life scenarios. He has a strong technical skillset both in terms of data science but also frontend development. He is an effective team player and good communicator."
+        },
+        {
+            "name": "Paul Sylvester | Senior Engineer",
+            "reference": "Andy is a very enthusiastic, committed and talented Data Scientist, working with Andy on technically challenging OCR project revealed all of those facets in great depth.  Andy was able to join an established team, quickly get up to speed and not only contribute to the development, he improved the accuracy and also the quality of the work being undertaken.  I was very impressed with his skill set and dedication and would hope to work together with Andy again in the future, a genuine asset to any employer."
+        },
+        {
+            "name": "Mark Strefford | Engagement Manager",
+            "reference": "Andy joined my team as a critical point in delivery of a high-profile project.  He was quickly able to get up to speed with the approach we'd taken to date and improve the solution we were developing.  He brought in ideas and worked hard to prove them.  He has excellent technical knowledge, is able to adapt what he knows to customer projects quickly, can identify key areas for focus, and works hard to deliver them.  I would fully recommend Andy to any data science / machine learning project, and would actively look to have him on my team again"
+        }
+    ],
+    "publications": [],
+    "volunteer": [],
+    "meta": {
+        "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+        "version": "v1.0.0",
+        "lastModified": "2017-12-24T15:53:00"
+    }
+}

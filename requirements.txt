@@ -2,6 +2,8 @@ streamlit
 spacy
 spacy-transformers
 pymupdf
+nltk
+scikit-learn
 PyMuPDF
 docx2txt
 pandas

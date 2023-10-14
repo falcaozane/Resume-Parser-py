@@ -63,82 +63,83 @@ clf.fit(X_train, y_train)
 # Streamlit App
 st.title("Resume Parser and Category Classifier")
 
-# File upload widget
-uploaded_file = st.file_uploader("Upload a File (PDF or DOCX)", type=["pdf", "docx"])
+# File upload widget for multiple files
+uploaded_files = st.file_uploader("Upload Multiple Files (PDF or DOCX)", type=["pdf", "docx"], accept_multiple_files=True)
 
-if uploaded_file is not None:
-    try:
-        # Read the uploaded file
-        file_extension = uploaded_file.name.split('.')[-1]
+if uploaded_files:
+    for uploaded_file in uploaded_files:
+        try:
+            # Read the uploaded file
+            file_extension = uploaded_file.name.split('.')[-1]
 
-        if file_extension == 'pdf':
-            # Read the PDF file
-            pdf_data = uploaded_file.read()
-            doc = fitz.open("uploaded.pdf", pdf_data)
-            text = " ".join([page.get_text() for page in doc])
+            if file_extension == 'pdf':
+                # Read the PDF file
+                pdf_data = uploaded_file.read()
+                doc = fitz.open("uploaded.pdf", pdf_data)
+                text = " ".join([page.get_text() for page in doc])
 
-        elif file_extension == 'docx':
-            # Read the DOCX file
-            text = docx2txt.process(uploaded_file)
+            elif file_extension == 'docx':
+                # Read the DOCX file
+                text = docx2txt.process(uploaded_file)
 
-        # Process the text with the SpaCy NER model
-        parsed_doc = nlp_ner(text)
+            # Process the text with the SpaCy NER model
+            parsed_doc = nlp_ner(text)
 
-        # Display the extracted entities
-        st.header("Extracted Entities:")
-        for ent in parsed_doc.ents:
-            st.write(f"{ent.label_} : {ent.text}")
+            # Display the extracted entities
+            st.header("Extracted Entities from Resume:")
+            for ent in parsed_doc.ents:
+                st.write(f"{ent.label_} : {ent.text}")
 
-        st.divider()
+            st.divider()
 
-        # Create a list of entities and labels
-        entities = [ent.text for ent in parsed_doc.ents]
-        labels = [ent.label_ for ent in parsed_doc.ents]
+            # Create a list of entities and labels
+            entities = [ent.text for ent in parsed_doc.ents]
+            labels = [ent.label_ for ent in parsed_doc.ents]
 
-        # Create a Pandas DataFrame
-        data = {'Label': labels, 'Content': entities}
-        df = pd.DataFrame(data)
+            # Create a Pandas DataFrame
+            data = {'Label': labels, 'Content': entities}
+            df = pd.DataFrame(data)
 
-        # Display the extracted entities in a table
-        st.header("Extracted Entities in Tabular format:")
-        st.dataframe(df)
+            # Display the extracted entities in a table
+            st.header("Extracted Entities in Tabular format:")
+            st.dataframe(df)
 
-        # Predict the category using the K-Nearest Neighbors Classifier
-        cleaned_resume = cleanResume(text)
-        input_features = word_vectorizer.transform([cleaned_resume])
-        prediction_id = clf.predict(input_features)[0]
+            # Predict the category using the K-Nearest Neighbors Classifier
+            cleaned_resume = cleanResume(text)
+            input_features = word_vectorizer.transform([cleaned_resume])
+            prediction_id = clf.predict(input_features)[0]
 
-        category_mapping = {
-                15: "Java Developer",
-                23: "Testing",
-                8: "DevOps Engineer",
-                20: "Python Developer",
-                24: "Web Designing",
-                12: "HR",
-                13: "Hadoop",
-                3: "Blockchain",
-                10: "ETL Developer",
-                18: "Operations Manager",
-                6: "Data Science",
-                22: "Sales",
-                16: "Mechanical Engineer",
-                1: "Arts",
-                7: "Database",
-                11: "Electrical Engineering",
-                14: "Health and fitness",
-                19: "PMO",
-                4: "Business Analyst",
-                9: "DotNet Developer",
-                2: "Automation Testing",
-                17: "Network Security Engineer",
-                21: "SAP Developer",
-                5: "Civil Engineer",
-                0: "Advocate",
-        }
+            category_mapping = {
+                    15: "Java Developer",
+                    23: "Testing",
+                    8: "DevOps Engineer",
+                    20: "Python Developer",
+                    24: "Web Designing",
+                    12: "HR",
+                    13: "Hadoop",
+                    3: "Blockchain",
+                    10: "ETL Developer",
+                    18: "Operations Manager",
+                    6: "Data Science",
+                    22: "Sales",
+                    16: "Mechanical Engineer",
+                    1: "Arts",
+                    7: "Database",
+                    11: "Electrical Engineering",
+                    14: "Health and fitness",
+                    19: "PMO",
+                    4: "Business Analyst",
+                    9: "DotNet Developer",
+                    2: "Automation Testing",
+                    17: "Network Security Engineer",
+                    21: "SAP Developer",
+                    5: "Civil Engineer",
+                    0: "Advocate",
+            }
 
-        category_name = category_mapping.get(prediction_id, "Unknown")
+            category_name = category_mapping.get(prediction_id, "Unknown")
 
-        st.write("Predicted Category:", category_name)
+            st.write("Predicted Category for Resume:", category_name)
 
-    except Exception as e:
-        st.error(f"An error occurred: {str(e)}")
+        except Exception as e:
+            st.error(f"An error occurred while processing the file: {str(e)}")

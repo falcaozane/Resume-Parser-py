@@ -54,7 +54,7 @@ word_vectorizer.fit(requiredText)
 WordFeatures = word_vectorizer.transform(requiredText)
 
 # Train-test split
-X_train, X_test, y_train, y_test = train_test_split(WordFeatures, requiredTarget, random_state=0, test_size=0.55)
+X_train, X_test, y_train, y_test = train_test_split(WordFeatures, requiredTarget, random_state=0, test_size=0.85)
 
 # K-Nearest Neighbors Classifier
 clf = OneVsRestClassifier(KNeighborsClassifier())

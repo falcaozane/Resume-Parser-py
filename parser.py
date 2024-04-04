@@ -1,5 +1,6 @@
 import streamlit as st
-import fitz
+import fitz  # Replace this import
+import PyMuPDF  # Add this import
 import spacy
 import spacy_transformers
 import pandas as pd
@@ -50,6 +51,7 @@ word_vectorizer = TfidfVectorizer(
     sublinear_tf=True,
     stop_words='english',
     max_features=1500)
+
 word_vectorizer.fit(requiredText)
 WordFeatures = word_vectorizer.transform(requiredText)
 
@@ -73,10 +75,12 @@ if uploaded_files:
             file_extension = uploaded_file.name.split('.')[-1]
 
             if file_extension == 'pdf':
-                # Read the PDF file
+                # Read the PDF file using PyMuPDF
                 pdf_data = uploaded_file.read()
-                doc = fitz.open("uploaded.pdf", pdf_data)
-                text = " ".join([page.get_text() for page in doc])
+                pdf_document = PyMuPDF.PDFDocument(PyMuPDF.MemoryPDFDoc(pdf_data))
+                text = ""
+                for page in pdf_document:
+                    text += page.getText()
 
             elif file_extension == 'docx':
                 # Read the DOCX file
@@ -136,7 +140,7 @@ if uploaded_files:
                 23: "Testing",
                 24: "Web Designing",
                 25: "Unknown"  # Add a category for unrecognized resumes
-        }
+            }
 
 
             category_name = category_mapping.get(prediction_id, "Unknown")

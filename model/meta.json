@@ -2,13 +2,13 @@
   "lang":"en",
   "name":"pipeline",
   "version":"0.0.0",
-  "spacy_version":">=3.6.1,<3.7.0",
+  "spacy_version":">=3.5.0,<3.6.0",
   "description":"",
   "author":"",
   "email":"",
   "url":"",
   "license":"",
-  "spacy_git_version":"458bc5f45",
+  "spacy_git_version":"Unknown",
   "vectors":{
     "width":0,
     "vectors":0,
@@ -21,17 +21,24 @@
 
     ],
     "ner":[
-      "College Name",
-      "Companies worked at",
-      "Degree",
-      "Designation",
-      "Email Address",
-      "Graduation Year",
-      "Location",
-      "Name",
-      "Skills",
-      "UNKNOWN",
-      "Years of Experience"
+      "AWARDS",
+      "CERTIFICATION",
+      "COLLEGE NAME",
+      "COMPANIES WORKED AT",
+      "CONTACT",
+      "DEGREE",
+      "DESIGNATION",
+      "EMAIL ADDRESS",
+      "LANGUAGE",
+      "LINKEDIN LINK",
+      "LOCATION",
+      "NAME",
+      "SKILLS",
+      "UNIVERSITY",
+      "Unlabelled",
+      "WORKED AS",
+      "YEAR OF GRADUATION",
+      "YEARS OF EXPERIENCE"
     ]
   },
   "pipeline":[
@@ -46,62 +53,92 @@
 
   ],
   "performance":{
-    "ents_f":0.5719339623,
-    "ents_p":0.5418994413,
-    "ents_r":0.6054931336,
+    "ents_f":0.8634001973,
+    "ents_p":0.8529106029,
+    "ents_r":0.8741510188,
     "ents_per_type":{
-      "Name":{
-        "p":0.9032258065,
-        "r":0.9333333333,
-        "f":0.9180327869
+      "LINKEDIN LINK":{
+        "p":0.9836065574,
+        "r":0.9771986971,
+        "f":0.9803921569
       },
-      "Designation":{
-        "p":0.5384615385,
-        "r":0.547826087,
-        "f":0.5431034483
+      "SKILLS":{
+        "p":0.823434992,
+        "r":0.7820121951,
+        "f":0.8021892103
       },
-      "Companies worked at":{
-        "p":0.3981042654,
-        "r":0.4827586207,
-        "f":0.4363636364
+      "NAME":{
+        "p":0.9451612903,
+        "r":0.9482200647,
+        "f":0.9466882068
       },
-      "Location":{
-        "p":0.664,
-        "r":0.7904761905,
-        "f":0.7217391304
+      "LOCATION":{
+        "p":0.7610062893,
+        "r":0.9097744361,
+        "f":0.8287671233
       },
-      "Email Address":{
-        "p":0.8333333333,
-        "r":1.0,
-        "f":0.9090909091
+      "COMPANIES WORKED AT":{
+        "p":0.9204244032,
+        "r":0.9236912156,
+        "f":0.9220549159
       },
-      "Degree":{
-        "p":0.6075949367,
-        "r":0.8,
-        "f":0.690647482
+      "WORKED AS":{
+        "p":0.880952381,
+        "r":0.9067193676,
+        "f":0.8936501753
       },
-      "College Name":{
-        "p":0.5494505495,
-        "r":0.7042253521,
-        "f":0.6172839506
+      "YEARS OF EXPERIENCE":{
+        "p":0.8902439024,
+        "r":0.9823380992,
+        "f":0.9340263894
       },
-      "Graduation Year":{
-        "p":0.4461538462,
-        "r":0.6744186047,
-        "f":0.537037037
+      "UNIVERSITY":{
+        "p":0.8114035088,
+        "r":0.7459677419,
+        "f":0.7773109244
       },
-      "Skills":{
-        "p":0.2394366197,
-        "r":0.1545454545,
-        "f":0.1878453039
+      "DEGREE":{
+        "p":0.8292682927,
+        "r":0.8315217391,
+        "f":0.8303934871
       },
-      "Years of Experience":{
-        "p":0.3571428571,
-        "r":0.3846153846,
-        "f":0.3703703704
+      "YEAR OF GRADUATION":{
+        "p":0.552238806,
+        "r":0.4683544304,
+        "f":0.5068493151
+      },
+      "COLLEGE NAME":{
+        "p":0.612244898,
+        "r":0.671641791,
+        "f":0.640569395
+      },
+      "CERTIFICATION":{
+        "p":0.7687296417,
+        "r":0.8353982301,
+        "f":0.8006785411
+      },
+      "LANGUAGE":{
+        "p":0.7338709677,
+        "r":0.7459016393,
+        "f":0.7398373984
+      },
+      "AWARDS":{
+        "p":0.7586206897,
+        "r":0.8148148148,
+        "f":0.7857142857
+      },
+      "EMAIL ADDRESS":{
+        "p":0.75,
+        "r":0.6428571429,
+        "f":0.6923076923
+      },
+      "Unlabelled":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
       }
     },
-    "transformer_loss":1311.0332501898,
-    "ner_loss":14080.1843217476
+    "transformer_loss":883.6437153101,
+    "ner_loss":1934.6626862299
   }
 }

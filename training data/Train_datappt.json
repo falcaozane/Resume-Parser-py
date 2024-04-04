@@ -17428,5 +17428,201 @@
           ]
         ]
       }
+    ],
+    [
+      "Alice Li Machine Learning Engineer - Facebook Menlo Park, California - View Profile on LinkedIn: [Insert LinkedIn Profile URL Here] Summary: Highly motivated Machine Learning Engineer with 3+ years of experience developing and deploying ML models for real-world applications. Skilled in various ML techniques, deep learning frameworks, and cloud platforms. Experience: Developed and deployed ML model for content recommendation at Facebook (15% user engagement increase), built scalable data pipeline for real-time feature engineering and model training in AWS SageMaker, collaborated with cross-functional teams for model integration, monitored model performance and conducted A/B testing for continuous improvement. Internship: Developed NLP model for sentiment analysis at Google AI (F1-score 0.87), performed data cleaning, pre-processing, and feature engineering, utilized TensorFlow and PyTorch for model development, presented research findings to senior engineers. Skills: Python (3+ yrs), R (2 yrs), Machine Learning Techniques (LR, DT, RF, SVM, KNN, KMeans, NLP, Deep Learning - CNNs, RNNs), Deep Learning Frameworks (TensorFlow, PyTorch), Cloud Platforms (AWS, GCP), Data Analysis & Visualization (Pandas, NumPy, Matplotlib, Seaborn), Version Control (Git). Education: MS in Computer Science, Stanford University (June 2020), BS in Mathematics, University of California, Berkeley (May 2018). Additional Information (Optional): Open to relocation, strong problem-solving and analytical skills, excellent communication and collaboration skills, passionate about AI and its applications.",
+      {
+        "entities": [
+          [
+            584,
+            599,
+            "Skills"
+          ],
+          [
+            532,
+            547,
+            "Experience"
+          ],
+          [
+            498,
+            513,
+            "Designation"
+          ],
+          [
+            464,
+            483,
+            "Companies worked at"
+          ],
+          [
+            448,
+            463,
+            "Location"
+          ],
+          [
+            416,
+            431,
+            "Education"
+          ],
+          [
+            382,
+            401,
+            "Master of Science"
+          ],
+          [
+            350,
+            369,
+            "Stanford University"
+          ],
+          [
+            334,
+            339,
+            "Year"
+          ],
+          [
+            300,
+            315,
+            "Bachelor of Science"
+          ],
+          [
+            268,
+            297,
+            "University of California, Berkeley"
+          ],
+          [
+            252,
+            257,
+            "Year"
+          ],
+          [
+            218,
+            233,
+            "Name"
+          ]
+        ]
+      }
+    ],
+    [
+      "Michael Jones SAP Developer - TechStars  San Francisco, California - View Profile on LinkedIn: [Insert LinkedIn Profile URL Here]  Open to relocation: New York City, New York - Los Angeles, California  WORK EXPERIENCE  SAP ABAP Developer  TechStars  San Francisco, California - June 2021 to Present  Job Responsibilities:  Developed and implemented custom ABAP programs to automate business processes across various modules (e.g., Materials Management, Sales & Distribution, Finance).  Performed unit testing and integration testing to ensure program functionality and data integrity.  Collaborated with business analysts and functional consultants to understand user requirements and translate them into technical specifications.  Documented code and maintained existing programs according to SAP best practices.  Utilized SAP GUI scripting (SH) to automate repetitive tasks.  TECHNICAL SKILLS  ABAP Programming (2 years)  SAP GUI Scripting (SH) (1 year)  SAP NetWeaver  SAP HANA (Basic understanding)  ABAP CDS Views (Basic understanding)  Additional Skills  SQL (1 year)  Basic understanding of relational database concepts  Excellent analytical and problem-solving skills  Strong communication and collaboration skills  EDUCATION  Master of Science in Computer Science  University of Southern California  May 2020  Bachelor of Arts (BA) in Mathematics  Stanford University  June 2018  PROJECTS  Developed an ABAP program to automate the creation of purchase orders based on pre-defined rules, improving order processing efficiency by 20%.  Created a custom report using ABAP CDS views to provide real-time insights into inventory levels for better decision-making.  (Note: These are dummy project descriptions. Replace with specific project details)",
+      {
+        "entities": [
+          [
+            808,
+            823,
+            "Skills"
+          ],
+          [
+            756,
+            769,
+            "Location"
+          ],
+          [
+            724,
+            743,
+            "Open to relocation"
+          ],
+          [
+            690,
+            719,
+            "Designation"
+          ],
+          [
+            656,
+            675,
+            "Companies worked at"
+          ],
+          [
+            640,
+            655,
+            "Location"
+          ],
+          [
+            594,
+            619,
+            "Education"
+          ],
+          [
+            552,
+            581,
+            "Master of Science"
+          ],
+          [
+            520,
+            549,
+            "University Name"
+          ],
+          [
+            504,
+            509,
+            "Year"
+          ],
+          [
+            456,
+            481,
+            "Bachelor of Arts (BA)"
+          ],
+          [
+            424,
+            453,
+            "University Name"
+          ],
+          [
+            408,
+            413,
+            "Year"
+          ],
+          [
+            370,
+            385,
+            "Project Highlights"
+          ],
+          [
+            222,
+            237,
+            "Name"
+          ]
+        ]
+      }
+    ],
+    [
+      "David Lee Software Engineer - Palo Alto Networks Santa Clara, California - View Profile on LinkedIn: [Insert LinkedIn Profile URL Here] Open to relocation: Seattle, Washington - Austin, Texas Education: Bachelor of Science in Computer Science, University of California, Berkeley (December 2023) Skills: Programming Languages (Python, Java, C++ - 1yr each), Frameworks & Libraries (Pandas, NumPy, Scikit-learn - basic understanding), Operating Systems (Windows, Linux), Version Control (Git). Projects: Stock Price Prediction (Python, Machine Learning), Personal Website (HTML, CSS, JavaScript). Technical Skills & Interests: Data Structures & Algorithms, Object-Oriented Programming (OOP), Software Design Principles, Cloud Computing (AWS - basic understanding).",
+      {
+          "entities": [
+            [
+              338,
+              353,
+              "Skills"
+            ],
+            [
+              304,
+              317,
+              "Education"
+            ],
+            [
+              270,
+              299,
+              "Bachelor of Science"
+            ],
+            [
+              238,
+              257,
+              "University of California, Berkeley"
+            ],
+            [
+              222,
+              227,
+              "Year"
+            ],
+            [
+              176,
+              193,
+              "Name"
+            ],
+            [
+              144,
+              157,
+              "Location"
+            ]
+          ]
+      }
     ]
-  ]
+]

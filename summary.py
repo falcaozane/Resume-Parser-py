@@ -1,19 +1,21 @@
 import streamlit as st
 import fitz
 import spacy
-import spacy_transformers
 import pandas as pd
 import docx2txt
 import re
 import nltk
-from sumy.parsers.plaintext import PlaintextParser
-from sumy.nlp.tokenizers import Tokenizer
-from sumy.summarizers.lsa import LsaSummarizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
+from transformers import BartTokenizer, BartForConditionalGeneration
+
+# Load pre-trained BART model and tokenizer
+model_name = "facebook/bart-large-cnn"
+tokenizer = BartTokenizer.from_pretrained(model_name)
+model = BartForConditionalGeneration.from_pretrained(model_name)
 
 # Load the SpaCy NER model
 nlp_ner = spacy.load("./model")
@@ -151,18 +153,18 @@ def summarize_resume():
                 # Clean the extracted content
                 cleaned_content = clean_resume(doc_content)
 
-                # Summarize the cleaned content
-                parser = PlaintextParser.from_string(cleaned_content, Tokenizer("english"))
-                summarizer = LsaSummarizer()
-                summary = summarizer(parser.document, sentences_count=3)
+                # Summarize the cleaned content using BART
+                inputs = tokenizer.encode("summarize: " + cleaned_content, return_tensors="pt", max_length=4096, truncation=True)
+                summary_ids = model.generate(inputs, max_length=500, min_length=100, length_penalty=1.0, num_beams=4, early_stopping=True)
+                summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
                 # Output the summary
                 st.header("Summary of Extracted Content:")
-                for sentence in summary:
-                    st.write(sentence)
+                st.write(summary)
 
             except Exception as e:
                 st.error(f"An error occurred while processing the file: {str(e)}")
+
 
 # Sidebar navigation
 selected_option = st.sidebar.selectbox(

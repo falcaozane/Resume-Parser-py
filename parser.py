@@ -119,11 +119,11 @@ if uploaded_files:
                 6: "Data Science",
                 7: "Database",
                 8: "DevOps Engineer",
-                9: "DotNet Developer",
+                9: ".Net Developer",
                 10: "ETL Developer",
                 11: "Electrical Engineering",
                 12: "HR",
-                13: "Hadoop",
+                13: "Hadoop and Big Data",
                 14: "Health and Fitness",
                 15: "Java Developer",
                 16: "Mechanical Engineer",
@@ -134,7 +134,7 @@ if uploaded_files:
                 21: "SAP Developer",
                 22: "Sales",
                 23: "Testing",
-                24: "Web Designing",
+                24: "Web Designing/ Frontend Developer",
                 25: "Unknown"  # Add a category for unrecognized resumes
         }
 

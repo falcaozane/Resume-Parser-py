@@ -40,8 +40,8 @@ if uploaded_file is not None:
 
     if pdf_text:
         # Tokenize and summarize the input text using BART
-        inputs = tokenizer.encode("summarize: " + pdf_text, return_tensors="pt", max_length=2048, truncation=True)
-        summary_ids = model.generate(inputs, max_length=450, min_length=100, length_penalty=4.0, num_beams=5, early_stopping=True)
+        inputs = tokenizer.encode("summarize: " + pdf_text, return_tensors="pt", max_length=4096, truncation=False)
+        summary_ids = model.generate(inputs, max_length=500, min_length=100, length_penalty=1.0, num_beams=3, early_stopping=False)
 
         # Decode and output the summary
         summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)

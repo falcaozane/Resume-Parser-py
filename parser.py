@@ -134,7 +134,7 @@ if uploaded_files:
                 21: "SAP Developer",
                 22: "Sales",
                 23: "Testing",
-                24: "Web Designing/ Frontend Developer",
+                24: "Web Designing / Frontend Developer",
                 25: "Unknown"  # Add a category for unrecognized resumes
         }
 

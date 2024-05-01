@@ -109,7 +109,34 @@ def parse_and_classify_resume():
                 input_features = word_vectorizer.transform([cleaned_resume])
                 prediction_id = clf.predict(input_features)[0]
 
-                category_mapping = dict(zip(range(len(le.classes_)), le.classes_))
+                category_mapping = {
+                0: "Advocate",
+                1: "Arts",
+                2: "Automation Testing",
+                3: "Blockchain",
+                4: "Business Analyst",
+                5: "Civil Engineer",
+                6: "Data Science",
+                7: "Database",
+                8: "DevOps Engineer",
+                9: ".Net Developer",
+                10: "ETL Developer",
+                11: "Electrical Engineering",
+                12: "HR",
+                13: "Hadoop and Big Data",
+                14: "Health and Fitness",
+                15: "Java Developer",
+                16: "Mechanical Engineer",
+                17: "Network Security Engineer",
+                18: "Operations Manager",
+                19: "PMO",
+                20: "Python Developer",
+                21: "SAP Developer",
+                22: "Sales",
+                23: "Testing",
+                24: "Web Designing / Frontend Developer",
+                25: "Unknown"  # Add a category for unrecognized resumes
+        }
 
                 category_name = category_mapping.get(prediction_id, "Unknown")
 

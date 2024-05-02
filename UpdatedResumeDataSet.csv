@@ -5160,7 +5160,7 @@ Database Used: MySQL.
 Team size: 1
 Position: Software Developer
 Synopsis: Service provider website we provide different categories."
-Web Designing,"Technical Skills Web Technologies: Angular JS, React JS, Vue JS, HTML5, CSS3, SASS, Bootstrap, Tailwind CSS, Jquery, Javascript. Software: Brackets, Visual Studio, Photoshop, Visual Studio Code Education Details 
+Web Designing,"Technical Skills Web Technologies: Angular JS, React JS, Vue JS, Firebase, HTML5, CSS3, SASS, Bootstrap, Tailwind CSS, Jquery, Javascript. Software: Brackets, Visual Studio, Photoshop, Visual Studio Code Education Details 
 January 2015 B.E CSE Nagpur, Maharashtra G.H.Raisoni College of Engineering
 October 2009  Photography Competition Click Nagpur, Maharashtra Maharashtra State Board
     College Magazine OCEAN
@@ -5314,7 +5314,7 @@ Description: In this project we provide a website in which doctor gives online c
 CURRICULUM & EXTRA CURRICULUM  ACTIVITIES
 company - FACE-IT
 description - Co-ordinator in project competition."
-Web Designing,"Technical Skills Web Technologies: Angular JS, React, HTML5, CSS3, SASS, Bootstrap, Tailwind CSS Jquery, Javascript. Software: Brackets, Visual Studio, Photoshop, Visual Studio Code Education Details 
+Web Designing,"Technical Skills Web Technologies: Angular JS, React, Firebase, HTML5, CSS3, SASS, Bootstrap, Tailwind CSS Jquery, Javascript. Software: Brackets, Visual Studio, Photoshop, Visual Studio Code Education Details 
 January 2015 B.E CSE Nagpur, Maharashtra G.H.Raisoni College of Engineering
 October 2009  Photography Competition Click Nagpur, Maharashtra Maharashtra State Board
     College Magazine OCEAN
@@ -5390,26 +5390,26 @@ Web Designing,"Education Details
  B.C.A Bachelor Computer Application Pune, Maharashtra Pune University
  H.S.C.  Pune, Maharashtra Pune University
  S.S.C.  Pune, Maharashtra Pune University
-Web Designing and Developer 
+Web Designing and Frontend Developer 
 
-php Developer - Exposys Pvt. Ltd
+Web Developer - Exposys Pvt. Ltd
 Skill Details 
 Company Details 
 company - Exposys Pvt. Ltd
 description - Technical Skills
-Web Development: HTML5, CSS3, Bootstrap, PHP, Ajax, Jquery, JavaScript.
-Database: MySQL.
+Web Development: React, HTML5, CSS3, Bootstrap, Tailwind, Jquery, JavaScript.
+Database: MySQL, MongoDB.
 Development Tools: Notepad++, Sublime Text2.
-Framework: Codeigniter.
-Server: Apache tomcat, Xampp Control Panel.
+Framework: Codeigniter, Nextjs, Express.
+Server: Apache tomcat, Xampp Control Panel, Vercel.
 Operating Systems: Windows.
 company - Exposys Pvt. Ltd
 description - Pune.	Augest 2017 to till date
 
 Project Details:
 Project-I: Pragat Bharat System
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX.
-Database Used: My SQL.
+Technologies Used: Next JS, Reactjs, HTML, CSS, BOOTSTRAP, TAILWIND.
+Database Used: MongoDB.
 Team size: 1
 Position: Software Developer
 Synopsis: This project aim is specially design for people. It is used to collect information to diifernt sector.
@@ -5451,14 +5451,14 @@ Position: Software Developer
 Synopsis: Fruitbuddy is to manage the details of fruits, Customer, Order, Transaction, Payment. It manages all the information about fruits, Stocks, Payment. The project is totally built at administrative end and thus only the administrator is guaranteed the access. The purpose of the project is to build an application program to reduce the manual work for managing the fruits, Customer, Stocks, Order.
 
 Project-VII: Totalcitee
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX, JAVA SCRIPT.
+Technologies Used: HTML, CSS, BOOTSTRAP, TAILWIND, PHP, JQUERY, AJAX, JAVASCRIPT.
 Database Used: My SQL.
 Team size: 1
 Position: Software Developer
 Synopsis: Real Estate web application has been created for helping you to sell properties through web based user interface. Visitors on your website can view particular desired products using search engine facility.
 
 Project-VIII: Golchha
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX, JAVA SCRIPT.
+Technologies Used: HTML, CSS, BOOTSTRAP, TAILWIND, PHP, JQUERY, AJAX, JAVASCRIPT.
 Database Used: My SQL.
 Team size: 1
 Position: Software Developer
@@ -5473,6 +5473,7 @@ Web Designer - Trust Systems and Software
 Skill Details 
 PHOTOSHOP- Exprience - 28 months
 BOOTSTRAP- Exprience - 6 months
+TAILWIND- Exprience - 6 months
 HTML5- Exprience - 6 months
 JAVASCRIPT- Exprience - 6 months
 CSS3- Exprience - Less than 1 year months

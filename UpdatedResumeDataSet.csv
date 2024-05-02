@@ -375,7 +375,7 @@ Learning, Deep Learning, Data Science, Python, Software Development.
 specs, planning, designing, implementation, configuration and documentation.
 âª Knowledge on Python , Machine Learning, Deep Learning, data Science, Algorithms, Neural Network,
 NLP, GCP.
-âª Knowledge on Python Libraries like Numpy, Pandas, Seaborn , Matplotlib, Cufflinks.
+âª Knowledge on Python Libraries like Numpy, Pandas, Seaborn, Matplotlib, Scikit-Learn, Cufflinks.
 âª Knowledge on different algorithms in Machine learning like KNN, Decision Tree, Bias variance Trade off,
 Support vector Machine(SVM),Logistic Regression, Neural networks.
 âª Have knowledge on unsupervised, Supervised and reinforcement data.
@@ -397,7 +397,7 @@ Data science
 
 I have six month experience in Data Science. Key Skills: - Experience in Machine Learning, Deep Leaning, NLP, Python, SQL, Web Scraping Good knowledge in computer subjects and ability to update
 Skill Details 
-Experience in Machine Learning, Deep Learning, NLP, Python, SQL, Web Crawling, HTML,CSS.- Exprience - Less than 1 year monthsCompany Details 
+Experience in Machine Learning, Deep Learning, NLP, SpaCy, Python, SQL, Web Crawling, HTML,CSS, JavaScript.- Exprience - Less than 1 year monthsCompany Details 
 company - RNT.AI Technology Solution
 description - Text classification using Machine learning Algorithms with python.
 Practical knowledge of Deep learning algorithms such as Â Recurrent Neural Networks(RNN).
@@ -443,7 +443,7 @@ The goal of this project is to build a Business Solutions to a Internet Service 
 The main goal of project is Recognize similarity for a face to given Database images. Face recognition is the recognizing a special face from set of different faces. Face is extracted and then compared with the database Image if that Image recognized then the person already applied for loan from somewhere else and now hiding his or her identity, this is how we are going to prevent the frauds in the initial stage itself.
 â Churn Analysis for Internet Service Provider   R, Python, Machine Learning, Hadoop
 The objective is to identify the customer who is likely to churn in a given period of time; we have to pretend the customer giving incentive offers.
-â Sentiment Analysis   Python, NLP, Apache Spark service in IBM Bluemix.
+â Sentiment Analysis   Python, NLP, SpaCy, Apache Spark service in IBM Bluemix.
 This project is highly emphasis on tweets from Twitter data were taken for mobile networks service provider to do a sentiment analysis and analyze whether the expressed opinion was positive, negative or neutral, capture the emotions of the tweets and comparative analysis.
 
 Quantifiable Results:
@@ -826,7 +826,7 @@ Learning, Deep Learning, Data Science, Python, Software Development.
 âª Skilled in managing end-to-end development and software products / projects from inception, requirement
 specs, planning, designing, implementation, configuration and documentation.
 âª Knowledge on Python , Machine Learning, Deep Learning, data Science, Algorithms, Neural Network,
-NLP, GCP.
+NLP, AWS, GCP.
 âª Knowledge on Python Libraries like Numpy, Pandas, Seaborn , Matplotlib, Cufflinks.
 âª Knowledge on different algorithms in Machine learning like KNN, Decision Tree, Bias variance Trade off,
 Support vector Machine(SVM),Logistic Regression, Neural networks.
@@ -4109,9 +4109,11 @@ Web Designer - Trust Systems and Software
 Skill Details 
 PHOTOSHOP- Exprience - 28 months
 BOOTSTRAP- Exprience - 6 months
+TAILWIND- Exprience - 6 months
 HTML5- Exprience - 6 months
 JAVASCRIPT- Exprience - 6 months
 CSS3- Exprience - Less than 1 year months
+React- Exprience - Less than 1 year months
 Angular 4- Exprience - Less than 1 year monthsCompany Details 
 company - Trust Systems and Software
 description - Projects worked on:
@@ -4182,9 +4184,9 @@ Skill Details
 Company Details 
 company - Exposys Pvt. Ltd
 description - Technical Skills
-Web Development: HTML5, CSS3, Bootstrap, PHP, Ajax, Jquery, JavaScript.
+Web Development: HTML5, CSS3, Bootstrap, Tailwind, PHP, Ajax, Jquery, JavaScript.
 Database: MySQL.
-Development Tools: Notepad++, Sublime Text2.
+Development Tools: Vscode, Notepad++, Sublime Text2.
 Framework: Codeigniter.
 Server: Apache tomcat, Xampp Control Panel.
 Operating Systems: Windows.
@@ -4193,14 +4195,14 @@ description - Pune.	Augest 2017 to till date
 
 Project Details:
 Project-I: Pragat Bharat System
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX.
 Database Used: My SQL.
 Team size: 1
 Position: Software Developer
 Synopsis: This project aim is specially design for people. It is used to collect information to diifernt sector.
 
 Project-II: Go Ayur System
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX.
 Database Used: My SQL.
 Team size: 2
 Position: Software Developer
@@ -4208,28 +4210,28 @@ Synopsis: Go Ayurveda Panchakarma center is one of most traditionally well estab
 Ayurvedic Health services and Kerala Panchakarma therapies.
 
 Project-III: Vitsanindia System
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX, JAVA SCRIPT.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX, JAVA SCRIPT.
 Database Used: My SQL.
 Team size: 2
 Position: Software Developer
 Synopsis: Online Shooping through app. This app is user friendly because there is a option for change language. User can to find different categories products as there choice.
 
 Project-IV: MahabaleshwarTours
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX, JAVA SCRIPT.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX, JAVA SCRIPT.
 Database Used: My SQL.
 Team size: 1
 Position: Software Developer
 Synopsis: In this system is to provide Online Registration, Tour Package Information, Ticket Booking, Online Payment and Searching Facility for Customer and also Generate Different types of Report.
 
 Project-V: Cityspaceindia
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX, JAVA SCRIPT.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX, JAVA SCRIPT.
 Database Used: My SQL.
 Team size: 1
 Position: Software Developer
 Synopsis: Service provider website we provide different categories.
 
 Project-VI: Fruitsbuddy
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX, JAVA SCRIPT.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX, JAVA SCRIPT.
 Database Used: My SQL.
 Team size: 1
 Position: Software Developer
@@ -4248,7 +4250,7 @@ Database Used: My SQL.
 Team size: 1
 Position: Software Developer
 Synopsis: Service provider website we provide different categories."
-Web Designing,"Technical Skills Web Technologies: Angular JS, React, Firebase, HTML5, CSS3, SASS, Bootstrap, Tailwind CSS, Jquery, Javascript. Software: Brackets, Visual Studio, Photoshop, Visual Studio Code Education Details 
+Web Designing,"Technical Skills Web Technologies: Angular JS, React, Firebase, HTML5, CSS3, SASS, Bootstrap, Tailwind, Jquery, Javascript. Software: Brackets, Visual Studio, Photoshop, Visual Studio Code Education Details 
 January 2015 B.E CSE Nagpur, Maharashtra G.H.Raisoni College of Engineering
 October 2009  Photography Competition Click Nagpur, Maharashtra Maharashtra State Board
     College Magazine OCEAN
@@ -4258,9 +4260,11 @@ Web Designer - Trust Systems and Software
 Skill Details 
 PHOTOSHOP- Exprience - 28 months
 BOOTSTRAP- Exprience - 6 months
+TAILWIND- Exprience - 6 months
 HTML5- Exprience - 6 months
 JAVASCRIPT- Exprience - 6 months
 CSS3- Exprience - Less than 1 year months
+React- Exprience - Less than 1 year months
 Angular 4- Exprience - Less than 1 year monthsCompany Details 
 company - Trust Systems and Software
 description - Projects worked on:
@@ -4348,6 +4352,7 @@ Web and Graphics Designer
 Web and Graphics Designer - Virtuous Media Point, Pune
 Skill Details 
 BOOTSTRAP- Exprience - 24 months
+TAILWIND- Exprience - Less than 1 year months
 HTML5- Exprience - 24 months
 JAVASCRIPT- Exprience - 24 months
 jQuery- Exprience - 24 months
@@ -4373,7 +4378,7 @@ Developed by other team members.
 Highlights:
 * Developed various modules as per customer requirement and identified and fixed number of bugs related to code, Database connectivity, UI Defects and so on.
 * Analyzed and modified existing codes to incorporate a number of changes in the application / user requirements, wrote new codes as required.
-* Coded, implemented and integrated complex programs using technologies such as HTML5, CSS3, JavaScript, jQuery, bootstrap.
+* Coded, implemented and integrated complex programs using technologies such as HTML5, CSS3, JavaScript, jQuery, bootstrap, Tailwind.
 * Having good command on Graphics designing with effective ideas.
 
 PROJECTS
@@ -4382,7 +4387,7 @@ PROJECTS
 In all projects I have used technologies like HTML5, CSS3, Bootstrap, JavaScript, jQuery and text editor as sublime text.
 
 * www.shreekiaspack.co.in, www.3staragroproducts.com, www.luckystationery.co.in: - used technologies like HTML5, CSS3,
-Bootstrap, javascript and text editor as notepad++.
+Bootstrap, Tailwind, javascript, firebase and text editor as notepad++.
 
 * Design various Logos, Brochures, Advertising Banners, Visiting Cards, Pamphlet, Hoardings etc.
 
@@ -4485,19 +4490,19 @@ Skill Details
 Company Details 
 company - Exposys Pvt. Ltd
 description - Technical Skills
-Web Development: HTML5, CSS3, Bootstrap, PHP, Ajax, Jquery, JavaScript.
+Web Development: HTML5, CSS3, Bootstrap, React, Firebase, PHP, Ajax, Jquery, JavaScript.
 Database: MySQL.
 Development Tools: Notepad++, Sublime Text2.
 Framework: Codeigniter.
 Server: Apache tomcat, Xampp Control Panel.
-Operating Systems: Windows.
+Operating Systems: Windows, Linux, Ubuntu.
 company - Exposys Pvt. Ltd
 description - Pune.	Augest 2017 to till date
 
 Project Details:
 Project-I: Pragat Bharat System
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX.
-Database Used: My SQL.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, Firebase.
+Database Used: Firestore.
 Team size: 1
 Position: Software Developer
 Synopsis: This project aim is specially design for people. It is used to collect information to diifernt sector.
@@ -4539,14 +4544,14 @@ Position: Software Developer
 Synopsis: Fruitbuddy is to manage the details of fruits, Customer, Order, Transaction, Payment. It manages all the information about fruits, Stocks, Payment. The project is totally built at administrative end and thus only the administrator is guaranteed the access. The purpose of the project is to build an application program to reduce the manual work for managing the fruits, Customer, Stocks, Order.
 
 Project-VII: Totalcitee
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX, JAVA SCRIPT.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX, JAVA SCRIPT.
 Database Used: My SQL.
 Team size: 1
 Position: Software Developer
 Synopsis: Real Estate web application has been created for helping you to sell properties through web based user interface. Visitors on your website can view particular desired products using search engine facility.
 
 Project-VIII: Golchha
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX, JAVA SCRIPT.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX, JAVA SCRIPT.
 Database Used: My SQL.
 Team size: 1
 Position: Software Developer
@@ -4651,6 +4656,7 @@ Web and Graphics Designer
 Web and Graphics Designer - Virtuous Media Point, Pune
 Skill Details 
 BOOTSTRAP- Exprience - 24 months
+TAILWIND- Exprience - 24 months
 HTML5- Exprience - 24 months
 JAVASCRIPT- Exprience - 24 months
 jQuery- Exprience - 24 months
@@ -4682,7 +4688,7 @@ Highlights:
 PROJECTS
 
 * www.nitka.com, Nagpur united corporation (admin), Mintmetrix.com, Tagline videos (admin), Smartbadge (admin): -
-In all projects I have used technologies like HTML5, CSS3, Bootstrap, Tailwind, JavaScript, jQuery, React, Next.js, Firebase and text editor as sublime text.
+In all projects I have used technologies like HTML5, CSS3, Bootstrap, Tailwind, JavaScript, jQuery, React, Next.js, Firebase and text editor as sublime text and Vscode.
 
 * www.shreekiaspack.co.in, www.3staragroproducts.com, www.luckystationery.co.in: - used technologies like HTML5, CSS3,
 Bootstrap, javascript and text editor as notepad++.
@@ -4791,10 +4797,10 @@ Skill Details
 Company Details 
 company - Exposys Pvt. Ltd
 description - Technical Skills
-Web Development: HTML5, CSS3, Bootstrap, Tailwind, PHP, Ajax, Jquery, JavaScript.
+Web Development: HTML5, CSS3, Bootstrap, Tailwind, PHP, Ajax, Jquery, JavaScript, Firebase.
 Database: MySQL, PostgreSQL, Oracle.
 Development Tools: Notepad++, Sublime Text2.
-Framework: Codeigniter.
+Framework: Codeigniter, React, Nextjs, Nuxtjs.
 Server: Apache tomcat, Xampp Control Panel.
 Operating Systems: Windows.
 company - Exposys Pvt. Ltd
@@ -4802,14 +4808,14 @@ description - Pune.	Augest 2017 to till date
 
 Project Details:
 Project-I: Pragat Bharat System
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX.
 Database Used: My SQL.
 Team size: 1
 Position: Software Developer
 Synopsis: This project aim is specially design for people. It is used to collect information to diifernt sector.
 
 Project-II: Go Ayur System
-Technologies Used: HTML, CSS, BOOTSTRAP, PHP, JQUERY, AJAX.
+Technologies Used: HTML, CSS, BOOTSTRAP, Tailwind, PHP, JQUERY, AJAX.
 Database Used: My SQL.
 Team size: 2
 Position: Software Developer
@@ -12129,7 +12135,7 @@ Skill Details
 Java, Javascript,- Exprience - 6 monthsCompany Details 
 company - Wab It Softwere Pvt.  Ltd.
 description - Jr. Java Developer"
-Java Developer,"Technical Skills (Trained / Project Acquired Skills) â¢ Languages Known: C, C++, J2EE, Spring, Hibernate. â¢ Testing: Functional Testing, Manual Testing. â¢ Operating Systems: Windows & Linux. â¢ Packages: MS-office. â¢ Databases: My SQL & PostgreSQL.Education Details 
+Java Developer,"Technical Skills (Trained / Project Acquired Skills) â¢ Languages Known: C, C++, J2EE, Spring, SpringBoot, Hibernate. â¢ Testing: Functional Testing, Manual Testing. â¢ Operating Systems: Windows & Linux. â¢ Packages: MS-office. â¢ Databases: MySQL, Oracle & PostgreSQL.Education Details 
 January 2013 to January 2017 B.E Computer Science and Engineering  RTMNU University - Jhulelal Institute of Technology
 January 2011 to January 2013 HSC  Nagpur, Maharashtra Maharashtra State Board - Dayanand Arya Kanya Junior College
 January 2010 to January 2011 SSC  Nagpur, Maharashtra Maharashtra State Board
@@ -12145,10 +12151,10 @@ LINUX- Exprience - 6 monthsCompany Details
 company - Inouvelle Ventures Private Limited
 description - Nagpur.
 1.   Project name: Stock Management System		December 2017 - Till Date
-Language of implementation: Angular (Frontend), JAVA - J2EE, spring, Hibernate Framework (Backend)
+Language of implementation: Angular and React (Frontend), JAVA - J2EE, spring, Hibernate Framework (Backend)
 & PostgresSql Database.
 Role: Java Developer
-Operating system: Windows XP/07/08
+Operating system: Windows 07/08/10/11
 Description: Stock management System is Specially Developing for the Medicinal Market. This software is developing to keep the track of medicines, ailments, surgical Equipments, & also to keep the track of Wholesalers, Retailers, Employees, & Customers of the Company. Stock management system is the practice of ordering, storing, tracking, and controlling
 inventory. Debtor invoicing software helps small businesses and freelancers keep track of company assets   .. Stock
 management may also be called stock control, inventory management or inventory control.
@@ -12161,7 +12167,7 @@ Role: Java Developer, Manual Testing.
 Operating system: Windows XP/07/08
 Description: This Project is done for the Oldest Printing Press in Nagpur. The proposed web based Printing Press
 Management System designed according to user and system requirement to fulfil the existing problems. This system offers the products and services that enhance organization growth, efficiency, and profitability."
-Java Developer,"TECHNICAL SKILLS Skills: Java, SQL, PL/SQL, C, C++, BootStrap, JSP, Ext JS Operating Systems: Windows Tools: Toad, Eclipse, SoapBox, Postman Databases: Oracle, MS-SQL, MS-Access, MS-ExcelEducation Details 
+Java Developer,"TECHNICAL SKILLS Skills: Java, SQL, PL/SQL, C, C++, BootStrap, Tailwind, React, JSP, Ext JS Operating Systems: Windows Tools: Toad, Eclipse, SoapBox, Postman Databases: Oracle, MS-SQL, MS-Access, MS-ExcelEducation Details 
 January 2017 B.E. Computer Technology Gondia, MAHARASHTRA, IN Manoharbhai Patel Institute of Engineering and Technology
  HSC  Gondia, MAHARASHTRA, IN S.M.P. Science College
 Java Developer 
@@ -12202,7 +12208,7 @@ new technical concepts quickly and utilize the same in a productive manner.
 â Good knowledge of Java, Sql, Ext JS, JSP, XML, Web services.
 â Good interpersonal & analytical skills with proven abilities in resolving the complex
 software issue."
-Java Developer,"TECHNICAL STRENGTHS Computer Language Java/J2EE, Swift, HTML, Shell script, MySQL Databases MySQL Tools SVN, Jenkins, Hudson, Weblogic12c Software Android Studio, Eclipse, Oracle, Xcode Operating Systems Win 10, Mac (High Sierra) Education Details 
+Java Developer,"TECHNICAL STRENGTHS Computer Language Java/J2EE, Swift, HTML, CSS, Shell script, MySQL Databases MySQL Tools SVN, Jenkins, Hudson, Weblogic12c Software Android Studio, Eclipse, Oracle, Xcode Operating Systems Win 10, Mac (High Sierra) Education Details 
 June 2016 B.E. Information Technology Goregaon, MAHARASHTRA, IN Vidyalankar Institute of Technology
 May 2013   Mumbai, Maharashtra Thakur Polytechnic
 May 2010   Mumbai, Maharashtra St. John's Universal School
@@ -12258,7 +12264,7 @@ ME PROJECT: Data Deduplication. My projects works to reduce redundant data from 
 SUBJECTS TAUGHT:
 C language, Core Java, Object Oriented Programming (OOT/C++), Database, PPS (Programming and problem solving), AD (Advance Database), IAS (Information Assurance and security), Android
 
-PROGRAMMING SKILL: C, C++, Java, Android.
+PROGRAMMING SKILL: C, C++, Java, Android, Kotlin.
 DATABASE HANDLED:
 MS Access, SQL, Oracle
 
@@ -12290,7 +12296,7 @@ JOB RESPONSIBILITIES
 â Develop project as per user requirement.
 
 KNOWLEDGE ABOUT:-
-â Programming language C, C++, DS, Java(Swing, JDBC, J2EE) java script,jquery,Ajax
+â Programming language C, C++, DS, Java(Swing, JDBC, J2EE) javascript,jquery,Ajax
 â Ms office, Excel."
 Java Developer,"TECHNICALSKILLS SpringMVC, Hibernate, JDBC, Java, J2EE, AzureWeb SunTechnologies Services, JSP, Struts, Servlet, RestApi. Scripting JavaScript, AJAX, HTML, JSON. OpenSourceTechnologies PHP. Database MsSQL, MySQL, Oracle. WebServers ApacheTomcatServer. Internettechnologiesand OnesignalWebPushNotifications, AzurewebServices, frameworks IONIC, HTML, JSON OperatingSystem WindowsServer2012R2, WinXP/7/8.1/10, Linux, Mac OS Education Details 
 August 2013 to July 2016 BE Computer Engineering Nashik, Maharashtra Late G.N. Sapkal COE Nashik
@@ -12327,6 +12333,8 @@ JAVA- Exprience - 24 months
 Spring MVC- Exprience - 12 months
 Ionic 3- Exprience - 6 months
 Angular JS- Exprience - 6 months
+React JS- Exprience - 6 months
+Vue JS- Exprience - 6 months
 Spring- Exprience - Less than 1 year months
 Java- Exprience - Less than 1 year monthsCompany Details 
 company - Replete business solutions pvt ltd
@@ -12372,7 +12380,7 @@ Skill Details
 Company Details 
 company - Vertical Software
 description - Expertise in design and development of web applications using J2EE, Servlets
-JSP, JavaScript, HTML, CSS, JQUERY, AJAX, JSON.
+JSP, JavaScript, HTML, CSS, Tailwind, JQUERY, AJAX, JSON.
 
 Experienced in developing applications using MVC architecture.
 
@@ -38608,7 +38616,7 @@ company - Accolite Software India Private Limited
 description - Bengaluru, KA
 Accolite is a global IT Services company headquartered in Dallas, USA with offices in India.
 Worked on Birst Analytics Tool to develop, deploy and maintain reports"
-Blockchain,"KEY SKILLS: Programing languages: C, C++, Python, Apex, Visualforce, Database: Mysql, Framework: Django, Technologies: Salesforce.com (Administration and development), Force.com, Salesforce CRM, Blockchain Website Designing: HTML5, CSS3, Tailwind CSS, React, Next.js Project: DIPLOMA: Project Name: VANET-virtual Ad - Hoc Network Technology Used: Java. About Project: A system has been made for Video-streaming. In this project, we give the Real, time video-steaming on two or more devices using VANET AP DEGREE: Project Name: Drowsiness Detection System Technology Used: python, Raspberry pi. About project: A system has been made for Driver safety when parson driving car. It detects Drowsy condition of a parson then system brings the alarm.Education Details 
+Blockchain,"KEY SKILLS: Programing languages: C, C++, Python, JavaScript Apex, Visualforce, Database: Mysql, Framework: Django, Technologies: Salesforce.com (Administration and development), Force.com, Salesforce CRM, Blockchain Website Designing: HTML5, CSS3, Tailwind CSS, React, Next.js Project: DIPLOMA: Project Name: VANET-virtual Ad - Hoc Network Technology Used: Java. About Project: A system has been made for Video-streaming. In this project, we give the Real, time video-steaming on two or more devices using VANET AP DEGREE: Project Name: Drowsiness Detection System Technology Used: python, Raspberry pi. About project: A system has been made for Driver safety when parson driving car. It detects Drowsy condition of a parson then system brings the alarm.Education Details 
 January 2017 B.E Computer Engineering Pune, Maharashtra Sanghavi College of Engineering
 January 2014 Diploma Computer Technology Nashik, Maharashtra Shree Mahavir Polytechnic
 January 2010 S.S.C.  Nashik, Maharashtra C.D.O.Meri High school
